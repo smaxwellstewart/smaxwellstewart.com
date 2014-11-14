@@ -1,0 +1,38 @@
+{% extends './layouts/default.html' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+<!-- *****************************************************************************************************************
+	 BLUE WRAP
+	 ***************************************************************************************************************** -->
+	<div id="blue">
+	    <div class="container">
+			<div class="row">
+				<h3>Blog List.</h3>
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /blue -->
+<!-- *****************************************************************************************************************
+	 BLOG CONTENT
+	 ***************************************************************************************************************** -->
+
+	 <div class="container mtb">
+	 	<div class="row">
+	 	
+	 		<!-- BLOG POSTS LIST -->
+	 		<div id="blogItems" class="col-lg-8">
+	 			
+		 		
+			</div><!--/col-lg-8 -->
+	 		
+	 		
+	 		<!-- SIDEBAR -->
+	 		<div class="col-lg-4">
+		 		{% include "./includes/blogSide.html" %}
+	 		</div>
+	 	</div><!--/row -->
+	 </div><!--/container -->
+
+    
+{% endblock %}

@@ -8,6 +8,7 @@ var criteria = {
 var manifest = {
     $meta: 'This file defines the plot device.',
     servers: [{
+        host: '127.0.0.1',
         port: config.get('/port/web'),
         options: {
             security: true,
@@ -21,8 +22,8 @@ var manifest = {
         'hapi-auth-basic': {},
         'lout': {},
         'visionary': {
-            engines: { jade: 'jade' },
-            path: './plugins/web'
+            engines: { html: 'swig' },
+            path: './plugins/web/views/'
         },
         './plugins/auth': {},
         './plugins/models': {},
@@ -39,7 +40,12 @@ var manifest = {
         './plugins/api/signup': { basePath: '/api' },
         './plugins/api/statuses': { basePath: '/api' },
         './plugins/api/users': { basePath: '/api' },
-        './plugins/web/index': {}
+        './plugins/api/blogs': { basePath: '/api' },
+        './plugins/web/assets': {},
+        './plugins/web/index': {},
+        './plugins/web/login': {},
+        './plugins/web/blog': {},
+        './plugins/web/cv': {}
     }
 };
 

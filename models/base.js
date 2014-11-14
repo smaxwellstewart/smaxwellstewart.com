@@ -246,6 +246,7 @@ BaseModel.find = function () {
 };
 
 
+
 BaseModel.findOne = function () {
 
     var collection = BaseModel.db.collection(this._collection);
@@ -311,14 +312,15 @@ BaseModel.update = function () {
     collection.update.apply(collection, args);
 };
 
-
-BaseModel.remove = function () {
+BaseModel.aggregation = function () {
 
     var collection = BaseModel.db.collection(this._collection);
     var args = Array.prototype.slice.call(arguments);
 
     collection.remove.apply(collection, args);
 };
+
+
 
 
 module.exports = BaseModel;

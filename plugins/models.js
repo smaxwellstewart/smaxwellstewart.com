@@ -8,7 +8,8 @@ exports.register = function (plugin, options, next) {
         BaseModel: require('../models/base'),
         Session: require('../models/session'),
         Status: require('../models/status'),
-        User: require('../models/user')
+        User: require('../models/user'),
+        Blog: require('../models/blog')
     };
 
     models.BaseModel.connect(function (err, db) {

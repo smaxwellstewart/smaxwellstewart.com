@@ -1,0 +1,51 @@
+{% extends './layouts/default.html' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+<!-- *****************************************************************************************************************
+	 BLUE WRAP
+	 ***************************************************************************************************************** -->
+	<div id="blue">
+	    <div class="container">
+			<div class="row">
+				<h3>Single Post.</h3>
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /blue -->
+
+	 
+	<!-- *****************************************************************************************************************
+	 BLOG CONTENT
+	 ***************************************************************************************************************** -->
+
+	 <div class="container mtb">
+	 	<div class="row">
+	 	
+	 		<!-- SINGLE POST -->
+	 		<div class="col-lg-8">
+	 			<!-- Blog Post 1 -->
+		 		<p><img class="img-responsive article-img" src=""></p>
+		 		<a class="article-link" href="#"><h3 class="ctitle"><span class="article-title"></span></h3></a>
+		 		<p><csmall>Posted: <span class="article-date"></span></csmall> | <csmall2>By: <span class="article-author"></span></csmall2></p>
+		 		<span class="article-text"></span>
+		 		<div class="spacing"></div>
+		 		<!-- <h6>SHARE:</h6>
+		 		<p class="share">
+		 			<a href="#"><i class="fa fa-twitter"></i></a>
+		 			<a href="#"><i class="fa fa-facebook"></i></a>
+		 			<a href="#"><i class="fa fa-tumblr"></i></a>
+		 			<a href="#"><i class="fa fa-google-plus"></i></a>		 		
+		 		</p> -->
+		 		
+			</div><!--/col-lg-8 -->
+	 		
+	 		
+	 		<!-- SIDEBAR -->
+	 		<div class="col-lg-4">
+		 		{% include "./includes/blogSide.html" %}
+	 		</div>
+	 	</div><!--/row -->
+	 </div><!--/container -->
+    
+{% endblock %}
