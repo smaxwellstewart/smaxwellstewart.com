@@ -1,14 +1,16 @@
-I grew up England. In the days that a glimpse of a nipple shown before the 9pm watershed was enough to send a country into a tailspin.
+A response to an original article, 'Nipples and Poop'.
+
+I grew up in Englad, the days that a glimpse of a nipple shown before the 9pm watershed was enough to send a country into a tailspin.
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/vqv2-ISx1vU" frameborder="0" allowfullscreen></iframe>
 
-This advert was banned after it debuted in England, having received over 300 complaints. It aired all over mainland europe without a peep of complaint. Was it is hardly surprising though? That was 1990 and she doesn't even seem to be thinking about the Queen as she so brazenly soaps her breasts. Golly gosh.
+This advert was banned after it's debut on ITV. It quickly received over 300 complaints, having aired all over mainland europe without a peep of complaint. Was it is surprising though? She didn't even seem to be thinking about the Queen as she brazenly soaped her breasts. Golly gosh.
 
-Thankfully all that happened when I was about 2. And the main memory of I have of shocking nipples as a kid, was of their blasphemous appearence in Monty Python's Life of Brian. Monty Python liberated much of England from the old fashioned conservative thinking of sex and blasphemy.
+Thankfully all that happened in 1990, when I was about 2. And the main memory of I have of nipples as a kid, was of their pogniantly blasphemous appearence in The Life of Brian. Despite this film coming out before I born, this Monty Python epic had an enduring legacy that liberated me and many people in England from the country's old fashioned oppresive dogma of sex, blasphemy and how 'proper' girls and boys should behave.
 
-Over on this side of the pond, there are new 21st century debates to be had on the appropriateness of nipples.
+Out in cyber-space, there are new 21st century debates to be had on the appropriateness of nipples.
 
-## Open-source high-tech Ren and Stimpy diversity nipples no less.
+## Open-source high-tech Ren and Stimpy diversity nipples.
 
 Ok time to explain.
 
@@ -52,11 +54,13 @@ I will remind you this is tech humor.
 
 So firstly, kudos to all those involved in picking another great name.
 
-Secondly, I wanted to say that I am really encouraged that the hapi community is listening to it's members and is taking steps to ensure that it remains an 'open' project.
+Secondly, I wanted to say that I am really encouraged that the hapi community is listening to it's members and is taking steps to ensure that it remains an 'open' project to all.
 
 At first I disagreed with the name change. I thought that the greater injustice was giving in to this strange notion idea that women alone have nipples, and that they are always and inherently sexual. The radical part of me still kinda thinks that. If you are gonna break the patriachy, you do it Python style, ridiculous, in drag, bare nipples and all.
 
-But I also spoke with a feminist in Budapest who put it another way. If you are a woman in tech, in a room full of men that can barely fathom that you are a woman to start with, do you really want to start talking about nipples?
+But I also spoke with a feminist in Budapest who put it another way:
 
-A male developer on skype once opined mid-meeting, "Good software is like a good bitch. It always does what it is supposed to.". With those kind of prevailing attitudes, point taken. We got a long way to go.
+>If you are a woman in tech, in a room full of men that can barely fathom that you are a woman to start with, do you really want to start talking about nipples?
+
+A male developer on skype once opined mid-meeting, "Good software is like a good bitch. It always does what it is supposed to.". With those kind of commonplace moronic attitudes, then ok, I take her point. Maybe we got a way to go before we can all make fun of this by wearing a dress.
 
