@@ -2,9 +2,9 @@ A response to an original article, ['Nipples and Poop'](http://hueniverse.com/20
 
 I grew up in Englad, the days that a glimpse of a nipple shown before the 9pm watershed was enough to send a country into a tailspin.
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/vqv2-ISx1vU" frameborder="0" allowfullscreen></iframe>
+The following advert was banned after it debuted on ITV. It quickly received over 300 complaints, having aired all over mainland europe without a peep of complaint. Was it is surprising though? She didn't even seem to be thinking about the Queen as she brazenly soaped her breasts. Golly gosh.
 
-This advert was banned after it's debut on ITV. It quickly received over 300 complaints, having aired all over mainland europe without a peep of complaint. Was it is surprising though? She didn't even seem to be thinking about the Queen as she brazenly soaped her breasts. Golly gosh.
+<iframe width="420" height="315" src="//www.youtube.com/embed/vqv2-ISx1vU" frameborder="0" allowfullscreen></iframe>
 
 Thankfully all that happened in 1990, when I was about 2. The main memory I have of shocking nipples growing up, was of their pogniantly blasphemous appearence in The Life of Brian. Despite this film coming out before I born, Monty Python's epic continued to liberated me and many people in England, from the country's old fashioned oppresive dogma of sex, blasphemy and how 'proper' girls and boys should behave.
 
