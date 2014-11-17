@@ -10,11 +10,11 @@ Thankfully all that happened in 1990, when I was about 2. The main memory of I h
 
 Out in cyber-space, there are new 21st century debates to be had on the appropriateness of nipples.
 
-## Open-source high-tech Ren and Stimpy diversity nipples. No less, no more.
+### Open-source high-tech Ren and Stimpy diversity nipples.
 
 Ok time to explain.
 
-'Hapi' is an open source tech project I contribute to. Open source means the code is free for anyone to use, there is a public place where it can be downloaded and the code is maintained by the community that uses the code. This is not my job, though I use Hapi sometimes in my work. This is what open-source means; anyone can use the code, but no one person can own it. 
+'Hapi' is an [open source](http://github.com/hapijs/hapi) tech project I contribute to. Open source means the code is free for anyone to use, there is a public place where it can be downloaded and the code is maintained by the community that uses the code. This is not my job, though I use Hapi sometimes in my work. This is what open-source means; anyone can use the code, but no one person can own it. 
 
 This particular open-source project was started by [Eran Hammer](), who is a different kind of project leader than most. He is openly gay and has written some really encouraging things about tackling the big bad [diversity](http://hueniverse.com/2013/07/10/diversity-2/) problem in tech. In the depressing days of gamergate this is highly needed.
 
@@ -52,13 +52,13 @@ It works on so many different levels. Two levels!
 
 I will remind you this is tech humor.
 
-### My two cents
+### My thoughts
 
 So firstly, kudos to all those involved in picking another great name.
 
 Secondly, I wanted to say that I am really encouraged that the hapi community is listening to it's members and is taking steps to ensure that it remains an 'open' project for everyone.
 
-At first I disagreed with the name change. I thought that the greater injustice was giving in to this strange notion idea that women alone have nipples, and that they are always and inherently sexual. The radical part of me still kinda thinks that. If you are gonna break down old fashioned oppressive thinking, you do it Python-style, ridiculous, in drag, bare nipples and all.
+At first I disagreed with the name change. I thought that the greater injustice was giving in to the misleading and damging notion that women alone have nipples. And that they are always, and inherently, sexual. The radical part of me still kinda thinks that. If you are gonna break down old fashioned oppressive thinking, you do it Python-style, ridiculous, in drag, bare nipples and all.
 
 But I also spoke with a feminist in Budapest who put it another way:
 
