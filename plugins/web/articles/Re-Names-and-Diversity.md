@@ -6,9 +6,9 @@ The following advert was banned after it debuted on ITV. It quickly received ove
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/vqv2-ISx1vU" frameborder="0" allowfullscreen></iframe>
 
-Thankfully all that happened in 1990, when I was about 2. The main memory I have of shocking nipples growing up, was of their pogniantly blasphemous appearence in The Life of Brian. Despite this film coming out before I born, Monty Python's epic continued to liberated me and many people in England, from the country's old fashioned oppresive dogma of sex, blasphemy and how 'proper' girls and boys should behave.
+Thankfully all that happened in 1990, when I was about 2. The main memory I have of shocking nipples growing up, was of their pogniantly blasphemous appearence in The Life of Brian. Despite this film coming out before I born, Monty Python's epic continued to liberate me and many people in England, from the country's old fashioned oppresive dogma of sex, blasphemy and how 'proper' girls and boys should behave.
 
-Out in cyber-space, there are new 21st century debates to be had on the appropriateness of nipples.
+In the present and out in cyber-space, there are new 21st century debates to be had on the appropriateness of nipples.
 
 ### Open-source high-tech Ren and Stimpy diversity nipples.
 
