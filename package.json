@@ -26,7 +26,6 @@
     "joi": "^4.6.2",
     "lodash": "^2.4.1",
     "lout": "^5.0.1",
-    "marked": "^0.3.2",
     "mongodb": "^1.4.8",
     "node-uuid": "^1.4.1",
     "nodemailer": "^1.3.0",
