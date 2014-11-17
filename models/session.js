@@ -80,7 +80,8 @@ Session.create = function (username, callback) {
                 key: { $ne: results.keyHash.hash }
             };
 
-            self.remove(query, done);
+
+            self.findAndRemove(query, done);
         }]
     }, function (err, results) {
 

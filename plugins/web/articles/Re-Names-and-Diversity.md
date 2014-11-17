@@ -14,7 +14,7 @@ Ok time to explain.
 
 'Hapi' is an open source tech project I contribute to. Open source means the code is free for anyone to use, there is a public place where it can be downloaded and the code is maintained by the community that uses the code. This is not my job, though I use Hapi sometimes in my work. This is what open-source means; anyone can use the code, but no one person can own it. 
 
-This particular open-source project was started by Eran Hammer, who is a different kind of project leader than most. He is openly gay and has written some really encouraging things about tackling the big bad [diversity](http://hueniverse.com/2013/07/10/diversity-2/) problem in tech. In the depressing days of gamergate this is highly needed.
+This particular open-source project was started by [Eran Hammer](), who is a different kind of project leader than most. He is openly gay and has written some really encouraging things about tackling the big bad [diversity](http://hueniverse.com/2013/07/10/diversity-2/) problem in tech. In the depressing days of gamergate this is highly needed.
 
 When he wrote first wrote Hapi, a web-application starter kit, the decsion was made to use Ren and Stimpy as a naming convention for all the project's various parts.
 
