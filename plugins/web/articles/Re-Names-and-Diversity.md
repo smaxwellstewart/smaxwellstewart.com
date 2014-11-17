@@ -6,7 +6,7 @@ I grew up in Englad, the days that a glimpse of a nipple shown before the 9pm wa
 
 This advert was banned after it's debut on ITV. It quickly received over 300 complaints, having aired all over mainland europe without a peep of complaint. Was it is surprising though? She didn't even seem to be thinking about the Queen as she brazenly soaped her breasts. Golly gosh.
 
-Thankfully all that happened in 1990, when I was about 2. The main memory of I have of shocking nipples growing up, was of their pogniantly blasphemous appearence in The Life of Brian. Despite this film coming out before I born, Monty Python's epic continued to liberated me and many people in England, from the country's old fashioned oppresive dogma of sex, blasphemy and how 'proper' girls and boys should behave.
+Thankfully all that happened in 1990, when I was about 2. The main memory I have of shocking nipples growing up, was of their pogniantly blasphemous appearence in The Life of Brian. Despite this film coming out before I born, Monty Python's epic continued to liberated me and many people in England, from the country's old fashioned oppresive dogma of sex, blasphemy and how 'proper' girls and boys should behave.
 
 Out in cyber-space, there are new 21st century debates to be had on the appropriateness of nipples.
 
@@ -14,11 +14,11 @@ Out in cyber-space, there are new 21st century debates to be had on the appropri
 
 Ok time to explain.
 
-'Hapi' is an [open source](http://github.com/hapijs/hapi) tech project I contribute to. Open source means the code is free for anyone to use, there is a public place where it can be downloaded and the code is maintained by the community that uses the code. This is not my job, though I use Hapi sometimes in my work. This is what open-source means; anyone can use the code, but no one person can own it. 
+'Hapi' is an [open source](http://github.com/hapijs/hapi) tech project I contribute to. Open source means the code is free for anyone to use, there is a public place where it can be downloaded. The code is maintained by the community that uses the code, and therefore it's success dependeds on it's community. Hapi is not my job, though I use Hapi in my work, so care about it's success. This is what open-source means; anyone can use the code, but no one person can own it. 
 
-This particular open-source project was started by [Eran Hammer](), who is a different kind of project leader than most. He is openly gay and has written some really encouraging things about tackling the big bad [diversity](http://hueniverse.com/2013/07/10/diversity-2/) problem in tech. In the depressing days of gamergate this is highly needed.
+This particular open-source project was started by [Eran Hammer](), who is a different kind of project leader than most. He is openly gay and has written some really encouraging things about tackling the big bad [diversity](http://hueniverse.com/2013/07/10/diversity-2/) problem in tech. In the depressing days of #gamergate,  this is highly needed.
 
-When he wrote first wrote Hapi, a web-application starter kit, the decsion was made to use Ren and Stimpy as a naming convention for all the project's various parts.
+When Hapi was first written, the decsion was made to use Ren and Stimpy references as a naming convention for all the project's various parts.
 
 So this is how 'nipple' and 'poop' came into the world; two of the many different modules in the Hapi ecosystem. The goal; to add a silly and creative voice in an area where naming conventions have so far produced Ubuntu's "[Saucy Salamander](https://wiki.ubuntu.com/DevelopmentCodeNames)", just possibly the worst worst worst software name ever.
 
