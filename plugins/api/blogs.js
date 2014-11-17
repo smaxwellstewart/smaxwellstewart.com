@@ -1,3 +1,4 @@
+var fs = require('fs');
 var Joi = require('joi');
 var Hoek = require('hoek');
 var slug = require('slug');
@@ -42,6 +43,24 @@ exports.register = function (plugin, options, next) {
                     return reply(err);
                 }
 
+                console.log('asdasdaadsasa', results.data.length)
+
+                for(var i = 0; i < results.data.length; i++) {
+                    var article = results.data[i];
+                    console.log('HEREHERE', article)
+                    article.date = article.timeCreated.toString();
+                    var pathname = __dirname+'/../web/articles/'+article.slug+'.md';
+                    try {
+                        var md = fs.readFileSync(pathname, 'utf8');
+                    } catch(err) {
+                        var md = '';
+                    }
+                    
+                    article.article = md;
+
+                    results[i] = article;
+                    
+                }
                 reply(results);
             });
         }
@@ -50,12 +69,12 @@ exports.register = function (plugin, options, next) {
 
     plugin.route({
         method: 'GET',
-        path: options.basePath + '/blog/{id}',
+        path: options.basePath + '/blog/{slug}',
         handler: function (request, reply) {
 
             var Blog = request.server.plugins.models.Blog;
 
-            Blog.findBySlug(request.params.id, function (err, article) {
+            Blog.findBySlug(request.params.slug, function (err, article) {
 
                 if (err) {
                     return reply(err);
@@ -64,6 +83,11 @@ exports.register = function (plugin, options, next) {
                 if (!article) {
                     return reply({ message: 'Document not found.' }).code(404);
                 }
+
+                article.date = article.timeCreated.toString();
+                var pathname = __dirname+'/../web/articles/'+article.slug+'.md';
+                var md = fs.readFileSync(pathname, 'utf8');
+                article.article = md;
 
                 reply(article);
             });

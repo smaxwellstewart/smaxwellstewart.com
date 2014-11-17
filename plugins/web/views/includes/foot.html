@@ -100,7 +100,7 @@
 	var blogItems = function(data) {
 		$('#blogItems').html('');
 		$.each(data.data, function(index, value) {
-			var n = value.article.indexOf('\n');
+			var n = value.article.indexOf('.');
 			var p = value.article.indexOf('\n', n+1);
 			if(p !== -1) {
 				var intro = value.article.substring(0, p);
@@ -156,7 +156,7 @@
 	if(window.location.pathname.indexOf("/", 1) < 0) {
 		apiCall('/api'+window.location.pathname + window.location.search, blogItems);
 	} else {
-		apiCall('/api'+window.location.pathname, blogPost);
+		// apiCall('/api'+window.location.pathname, blogPost);
 	}
 	{% if (pages._current === 'index') %}
 
