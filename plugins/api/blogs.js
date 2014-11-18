@@ -33,7 +33,7 @@ exports.register = function (plugin, options, next) {
             }
 
             var fields = request.query.fields;
-            var sort = request.query.sort;
+            var sort = request.query.sort || '-timeCreated';
             var limit = request.query.limit;
             var page = request.query.page;
 
