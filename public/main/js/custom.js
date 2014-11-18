@@ -61,7 +61,8 @@
 					columnNumber = getColumnNumber(), 
 					itemWidth = Math.floor(winWidth / columnNumber);
 					
-					$container.find('.portfolio-item').each(function() { 
+					var portfolio = $container.find('.portfolio-item');
+					$.each(portfolio, function(index, value) { 
 						$(this).css( { 
 						width : itemWidth + 'px' 
 					});
