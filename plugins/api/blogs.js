@@ -58,7 +58,7 @@ exports.register = function (plugin, options, next) {
                     
                     article.article = md;
 
-                    results[i] = article;
+                    results.data[i] = article;
                     
                 }
                 reply(results);
@@ -193,13 +193,13 @@ exports.register = function (plugin, options, next) {
                             slug: request.payload.slug
                         };
 
-                        Blog.findOne(conditions, function (err, user) {
+                        Blog.findOne(conditions, function (err, article) {
 
                             if (err) {
                                 return reply(err);
                             }
 
-                            if (user) {
+                            if (article && article._id !== request.params.id ) {
                                 var response = {
                                     message: 'Blog title already in use.'
                                 };

@@ -7,6 +7,6 @@ at 19:00
 	
 1450, rue Guy, 7ième étage, (angle boul. De Maisonneuve O.), Montreal, Quebec
 
-[Facebook event.]((https://www.facebook.com/events/1507429752860861/))
+[Facebook event](https://www.facebook.com/events/1507429752860861/)
 
 
