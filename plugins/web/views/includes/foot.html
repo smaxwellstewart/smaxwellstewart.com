@@ -1,8 +1,6 @@
 {% block foot %}
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+	<script "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
     {% for item in assets.main.js %}
-        <script src="/assets/{{item}}{{version.cache}}"></script>
+        <script "text/javascript" src="/assets/{{item}}{{version.cache}}"></script>
     {% endfor %}
-    <script>
-</script>
 {% endblock %}

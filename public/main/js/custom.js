@@ -111,7 +111,6 @@
 	}
 
 	var recentPosts = function(data) {
-		console.log(data)
 		$('.portfolio').html('');
 		$('.popular-posts').html('');
 		var home = $('html').hasClass('index');
@@ -129,7 +128,6 @@
 	}
 
 	var blogPost = function(data) {
-		console.log(data);
 		$('.article-img').attr('src', data.img);
 		$('.article-link').attr('href', '/blog/'+data.slug);
 		$('.article-title').html(data.title);
