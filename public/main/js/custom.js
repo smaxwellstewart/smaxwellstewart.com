@@ -146,7 +146,7 @@
 	apiCall('/api/blog?sort=-timeCreated', recentPosts);
 
 	if(window.location.pathname.indexOf("/", 1) < 0) {
-		apiCall('/api'+window.location.pathname + window.location.search, blogItems);
+		apiCall('/api'+window.location.pathname + window.location.search + '?sort=-timeCreated', blogItems);
 	} else {
 		// apiCall('/api'+window.location.pathname, blogPost);
 	}
