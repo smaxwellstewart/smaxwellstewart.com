@@ -70,8 +70,6 @@ exports.register = function (plugin, options, next) {
                 pagePaths._current = 'blog';
             }
             response.source.context.pages = pagePaths;
-
-            console.log(assets[environment]);
         }
         return next();
     });
