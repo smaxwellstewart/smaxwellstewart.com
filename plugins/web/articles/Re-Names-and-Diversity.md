@@ -20,7 +20,7 @@ When Hapi was first written, the decsion was made to use Ren and Stimpy referenc
 
 So 'nipple' and 'poop' were born; two of the many different parts of the Hapi universe. The goal; to add a silly and creative voice in an area where software naming conventions have so far produced Ubuntu's "[Saucy Salamander](https://wiki.ubuntu.com/DevelopmentCodeNames)", just possibly the worst worst worst release name ever.
 
-### Hapi hapi joi joi?
+### Not all were Hapi hapi joi joi.
 
 Mr. Hammer recently [changed his mind](http://hueniverse.com/2014/08/18/nipples-and-poop/) about nipple's appropriateness though, after a language review was conducted of the project:
 
