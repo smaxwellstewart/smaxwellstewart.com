@@ -43,11 +43,9 @@ exports.register = function (plugin, options, next) {
                     return reply(err);
                 }
 
-                console.log('asdasdaadsasa', results.data.length)
 
                 for(var i = 0; i < results.data.length; i++) {
                     var article = results.data[i];
-                    console.log('HEREHERE', article)
                     article.date = article.timeCreated.toString();
                     var pathname = __dirname+'/../web/articles/'+article.slug+'.md';
                     try {
@@ -201,7 +199,7 @@ exports.register = function (plugin, options, next) {
 
                             if (article && article._id !== request.params.id ) {
                                 var response = {
-                                    message: 'Blog title already in use.'
+                                    message: 'Slug already in use.'
                                 };
 
                                 return reply(response).takeover().code(409);
