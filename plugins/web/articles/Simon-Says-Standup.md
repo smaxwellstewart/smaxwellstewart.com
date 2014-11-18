@@ -1,4 +1,4 @@
-### [Studio 7](http://studio-7.ca) - [Nov 21st 2014]
+### [Studio 7](http://studio-7.ca) - Nov 21st 2014
 
 Comedy in the round. A short piece about testosterone.
 

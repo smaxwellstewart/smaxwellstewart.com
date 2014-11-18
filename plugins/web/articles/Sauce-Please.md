@@ -4,7 +4,9 @@ This blog is an open blog.
 
 ### What do you mean by an open blog?
 
-You as a reader, or contributor, can see, copy and submit edits to any part of my website.
+Well firstly like a normal blog it is a place to read articles that I write and occasionaly someone else writes. A place to that you as a reader, or contributor, can see, and submit edits to any part of my website.
+
+Not only that if you disagree with how the blog is run, you can create a fork of the code.
 
 ### Like any part??!
 
@@ -24,8 +26,10 @@ If you sign up as a Github user you as a reader and contributor to this blog can
 
 ### Why the hell would i wanna sign up for Gitub account?
 
-- It is free to sign up
-- Gives you free use of all of it's services for open source projects.
+Github is the 3rd party where my site's source code is hosted. Githiub accounts are:
+
+- Free to sign up
+- Gives you free use of it's services for open source projects.
 
 ### The good news?
 
@@ -48,6 +52,8 @@ To be dicussed
 #### Issues
 
 Got a comment? Want to suggest an update or edit?
+
+[https://github.com/smaxwellstewart/frame/pulls](https://github.com/smaxwellstewart/frame/pulls)
 
 #### Blog posts
 
