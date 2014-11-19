@@ -9,7 +9,9 @@ Friday, 8pm
 [Facebook event](https://www.facebook.com/events/1507429752860861/)
 
 >Come to our November Studio 7! It will be performed in the round, with a focus on exploration outside of your comfortable art form. It's time to switch it up, collaborate, and have some fun!
+>
 >Gallery opens at 7 pm
+>
 >Performances start at 8 pm
 
 Hope to see you there!
