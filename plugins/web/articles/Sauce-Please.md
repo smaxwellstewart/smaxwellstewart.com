@@ -32,7 +32,7 @@ If are signed up as a Github user, from the repo you can:
 - Submit an issue as a way to start a thread of dialogue, or discuss how the site is run. Errors, disagrement with articles, grammatical injustices, whatever it is open an issue...
 - Users can submit pull requests to suggest a change any of the site. Community decides is they want the changes.
 
-### Why the hell would i wanna sign up for Gitub account?
+### Why the hell would i wanna sign up for a Gitub account?
 
  Github is designed as an open source platform. Accounts are:
 
