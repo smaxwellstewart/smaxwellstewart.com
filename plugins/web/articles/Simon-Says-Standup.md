@@ -1,4 +1,4 @@
-### [Studio 7](http://studio-7.ca) - Nov 21st 2014 @ 7pm
+### [Studio 7](http://studio-7.ca), Montreal - Nov 21st 2014 @ 7pm
 
 Comedy in the round. A short piece about testosterone.
 
