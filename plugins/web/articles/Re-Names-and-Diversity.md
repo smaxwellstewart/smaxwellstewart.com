@@ -48,7 +48,7 @@ I will remind you this is tech humor.
 
 ### My thoughts
 
-Before I express any kind of opinion, I want to say that I am really encouraged that I am part of a community that is listening to it's members and is taking steps to ensure that it remains an open project for everyone.
+Before I express any kind of opinion about the decision, I want to say that I am really encouraged that I am part of a community that is listening to it's members and is taking steps to ensure that it remains an open project for everyone.
 
 At first I disagreed with the name change. I thought that the greater injustice was giving in to the misleading and damging notion that women alone have nipples. And that they are always, and inherently, sexual. The radical part of me still kinda thinks that. If you are gonna break down old fashioned oppressive thinking, you do it Python-style, ridiculous, in drag, bare nipples and all.
 
