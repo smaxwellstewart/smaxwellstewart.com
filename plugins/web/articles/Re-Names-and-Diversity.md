@@ -1,6 +1,6 @@
 A response to an original article, ['Nipples and Poop'](http://hueniverse.com/2014/08/18/nipples-and-poop/).
 
-The main memory I have of shocking nipples growing up, was of their pogniantly blasphemous appearence in The Life of Brian. Despite this film coming out before I born, Monty Python's epic continued to liberate me and many people in England, from the country's oppresive dogma regarding sex, blasphemy and how 'proper' girls and boys should behave.
+The main memory I have of shocking nipples growing up, was of their poignantly blasphemous appearence in The Life of Brian. Despite this film coming out before I born, Monty Python's epic catalogue continued to liberate me and many people in England from the country's oppresive dogma regarding sex, blasphemy and how 'proper' girls and boys should behave.
 
 In the present day and out in cyber-space, there are new 21st century debates to be had on the appropriateness of nipples.
 
@@ -12,11 +12,11 @@ Let me take a moment to explain.
 
 The code is maintained by the community that uses it, and therefore the project's success dependeds on it's community. Hapi is not my job, though I use Hapi in my work, so care about it's success.
 
-The project was started by [Eran Hammer](), who is trying to tackle the big bad [diversity](http://hueniverse.com/2013/07/10/diversity-2/) problem in tech. In the depressing days of #gamergate, this is highly needed. He has taken some really encouraging steps to help encourage diversity in the hapi project.
+The project was started by [Eran Hammer](), who is trying to tackle the big bad [diversity](http://hueniverse.com/2013/07/10/diversity-2/) problem in tech, and is starting with the hapi project. In the depressing days of #gamergate, this kind of leadership is highly needed.
 
 ### So where do nipples come in?
 
-When Hapi was first written, the decsion was made to use Ren and Stimpy references as a naming convention for all the project's various parts.
+When Hapi was first written, the decision was made to use Ren and Stimpy references as a naming convention for all the project's various parts.
 
 So 'nipple' and 'poop' were born; two of the many different parts of the Hapi universe. The goal; to add a silly and creative voice in an area where software naming conventions have so far produced Ubuntu's "[Saucy Salamander](https://wiki.ubuntu.com/DevelopmentCodeNames)", just possibly the worst worst worst release name ever.
 
@@ -54,13 +54,13 @@ At first I disagreed with the name change. I thought that the greater injustice 
 
 But I also spoke with a feminist in Budapest who put it another way:
 
->If you are a woman in tech, in a room full of men that can barely fathom that you are a woman to start with, do you really want to start talking about nipples?
+>Imagine you are a woman in tech, in a room full of men that are struggling to fathom that you are a woman to start with. Do you really want to start talking about nipples?
 
-I can see what she means. A male developer on skype once opined mid-meeting:
+I can see what she means. A male developer on skype once opined to me in the middle of a dev chat:
 
 >Good software is like a good bitch. It always does what it is supposed to.
 
-With those kind of moronic flipancies being far too common, then perhaps silly Python boy-humor might not save the day.
+This kind of humour creates a pointless 'us' vs 'them' attitude many men and women find repulsive. But with these kind of moronic flipancies being far too common in tech, then perhaps silly Python humor might not save the day.
 
 Maybe we got some way to go before we can make fun of this by wearing a dress?
 
