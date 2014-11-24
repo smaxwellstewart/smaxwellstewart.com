@@ -30,7 +30,7 @@ He went on,
 
 >What is interesting about the ‘nipple’ experience is that no one brought this issue up. I’ve had very open, frank conversations with women about making a significant shift in diversity within the hapi community and while other topics came up, this didn’t (even though it turned out to be on their mind). But when I asked plainly on Twitter what did people think, the response was strong, quick, and overwhelming.
 
-### Poop is rarely appropriate, but somtimes...
+### Poop is rarely appropriate, but sometimes...
 
 The conslusion was that 'Poop' might make some people feel uncomfortable, but it makes no one **in particular** uncomfortable. 'Nipple' on the other hand seemed to have caused some women **particular** distress.
 
@@ -60,7 +60,7 @@ I can see what she means. A male developer on skype once opined to me in the mid
 
 >Good software is like a good bitch. It always does what it is supposed to.
 
-This kind of humour creates a pointless 'us' vs 'them' attitude many men and women find repulsive. But with these kind of moronic flipancies being far too common in tech, then perhaps silly Python humor might not save the day.
+This kind of humour creates a pointless 'us' vs 'them' attitude many men and women find repulsive. But with these kind of moronic flipancies being far too common in tech, then perhaps silly Python boy-humor might not save the day.
 
-Maybe we got some way to go before we can make fun of this by wearing a dress?
+Maybe we got some more important priorities to take care of, before we can all make fun of this by wearing dresses?
 
