@@ -12,7 +12,9 @@ exports.register = function (plugin, options, next) {
         method: 'GET',
         path: '/blog',
         handler: function (request, reply) {
-            return reply.view('blog'); 
+            return reply.view('blog', {
+                title: request.query.category || 'Blog'
+            }); 
         }
     });
 
@@ -31,7 +33,7 @@ exports.register = function (plugin, options, next) {
                 }
 
                 if (!article) {
-                    return reply({ message: 'Document not found.' }).code(404);
+                    return reply.view('404', { title: 'Article not found.' }).code(404);
                 }
                 article.date = article.timeCreated.toString();
 
