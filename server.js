@@ -8,7 +8,6 @@ composer(function (err, pack) {
     }
 
     pack.start(function () {
-    	console.log('Server started at: ', pack.info);
 
         console.log('Started the plot device.');
     });
