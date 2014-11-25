@@ -292,7 +292,7 @@ BaseModel.findByIdAndRemove = function (id, callback) {
     collection.remove(query, callback);
 };
 
-BaseModel.findAndRemove = function (query, callback) {
+BaseModel.remove = function (query, callback) {
 
     var collection = BaseModel.db.collection(this._collection);
     // var query = { _id: this._idClass(id) };
