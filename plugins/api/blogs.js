@@ -37,8 +37,6 @@ exports.register = function (plugin, options, next) {
             var limit = request.query.limit;
             var page = request.query.page;
 
-            console.log(sort);
-
             Blog.pagedFind(query, fields, sort, limit, page, function (err, results) {
 
                 if (err) {
