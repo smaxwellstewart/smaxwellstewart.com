@@ -5,7 +5,7 @@ exports.register = function (plugin, options, next) {
         path: '/',
         handler: function (request, reply) {
             return reply.view('index', {
-            	title: 'Home'
+            	title: 'Software Developer'
             }); 
         }
     });
