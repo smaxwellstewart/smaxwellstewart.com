@@ -81,7 +81,7 @@ Session.create = function (username, callback) {
             };
 
 
-            self.findAndRemove(query, done);
+            self.remove(query, done);
         }]
     }, function (err, results) {
 
