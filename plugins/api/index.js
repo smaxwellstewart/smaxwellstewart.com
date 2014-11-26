@@ -8,10 +8,10 @@ exports.register = function (plugin, options, next) {
 
     plugin.route({
         method: 'GET',
-        path: options.basePath + '/',
+        path: options.basePath,
         handler: function (request, reply) {
 
-            reply({ message: 'Welcome to the plot device.' });
+            reply({ message: 'Hapi hapi joi joi.' });
         }
     });
 
