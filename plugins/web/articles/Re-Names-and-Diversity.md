@@ -24,11 +24,11 @@ So 'nipple' and 'poop' were born; two of the many different parts of the Hapi un
 
 Mr. Hammer recently [changed his mind](http://hueniverse.com/2014/08/18/nipples-and-poop/) about nipple's appropriateness though, after a language review was conducted of the project:
 
->"The nipple module was initially created as an internal component that no one was meant to use except for those working on hapi core. I know this sounds like an excuse for picking an inappropriate name, and it is, but it was also what was going through my mind – a public private joke. And I’m sorry for that.""
+>"The nipple module was initially created as an internal component that no one was meant to use except for those working on hapi core. I know this sounds like an excuse for picking an inappropriate name, and it is, but it was also what was going through my mind – a public private joke. And I’m sorry for that."
 
 He went on,
 
->"But when I asked plainly on Twitter what did people think, the response was strong, quick, and overwhelming.""
+>"But when I asked plainly on Twitter what did people think, the response was strong, quick, and overwhelming."
 
 ### Poop is rarely appropriate, but sometimes...
 
@@ -54,11 +54,11 @@ At first I disagreed with the name change. I thought that the greater injustice 
 
 But I also spoke with a feminist in Budapest who put it another way:
 
->"Imagine you are a woman in tech, in a room full of men that are struggling to fathom that you are a woman to start with. Do you really want to start talking about nipples?""
+>"Imagine you are a woman in tech, in a room full of men that are struggling to fathom that you are a woman to start with. Do you really want to start talking about nipples?"
 
 I can see what she means. A male developer on skype once opined to me in the middle of a dev chat:
 
->"Good software is like a good bitch. It always does what it is supposed to.""
+>"Good software is like a good bitch. It always does what it is supposed to."
 
 This kind of humour creates a pointless 'us' vs 'them' attitude many men and women find repulsive. But with these kinds of moronic flippancies being far too common in tech, then perhaps silly Python boy-humor will not save the day.
 
