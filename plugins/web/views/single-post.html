@@ -23,14 +23,18 @@
 	 	<div class="row">
 	 	
 	 		<!-- SINGLE POST -->
-	 		<div class="col-lg-8">
-	 			<!-- Blog Post 1 -->
-		 		<p><img class="img-responsive article-img" src="{{img}}"></p>
-		 		<h3 class="ctitle"><span class="article-title">{{title}}</span> </h3>
+	 		<article class="col-lg-8" itemscope itemtype="http://schema.org/Article">
+	 			<header>
+			 		<p><img class="img-responsive article-img" src="{{img}}"></p>
+			 		<h1 class="ctitle"><span class="article-title">{{title}}</span> </h1>
 
-		 		<p><csmall>Posted: {{date}}</csmall> | <csmall2>By: <span class="article-author">{{author}}</span></csmall2></p>
-		 		<h6><a href="https://github.com/smaxwellstewart/frame/blob/master/plugins/web/articles/{{slug}}.md"><i class="fa fa-edit"></i> Edit</a> | <a href="https://github.com/smaxwellstewart/frame/issues"><i class="fa fa-comments"></i> Comments</a></h6>
-		 		{% autoescape false %}{{ html }}{% endautoescape %}
+			 		<p><csmall>Posted: <time itemprop="date" datetime="{{date}}">{{date}}</time></csmall> | <csmall2>By: <span class="article-author" itemprop="author">{{author}}</span></csmall2> | Into: <span itemprop="articleSection">{{category}}</span></p>
+			 		<h6><a href="https://github.com/smaxwellstewart/frame/blob/master/plugins/web/articles/{{slug}}.md"><i class="fa fa-edit"></i> Edit</a> | <a href="https://github.com/smaxwellstewart/frame/issues"><i class="fa fa-comments"></i> Comments</a></h6>
+		 		</header>
+		 		<span itemprop="articleBody">
+		 			{% autoescape false %}{{ html }}{% endautoescape %}
+		 		</span>
+		 		
 		 		<div class="spacing"></div>
 		 		<!-- <h6>SHARE:</h6>
 		 		<p class="share">
@@ -40,7 +44,7 @@
 		 			<a href="#"><i class="fa fa-google-plus"></i></a>		 		
 		 		</p> -->
 		 		
-			</div><!--/col-lg-8 -->
+			</article><!--/col-lg-8 -->
 	 		
 	 		
 	 		<!-- SIDEBAR -->
