@@ -3,6 +3,7 @@
 {% block title %}{{title}}{% endblock %}
 
 {% block content %}
+	<span itemscope itemtype="http://data-vocabulary.org/Person">
 	<!-- *****************************************************************************************************************
 	 HEADERWRAP
 	 ***************************************************************************************************************** -->
@@ -11,7 +12,7 @@
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
 					<h3>Adventures of a Polymath</h3>
-					<h1>Simon Maxwell-Stewart</h1>
+					<h1 itemprop="name">Simon Maxwell-Stewart</h1>
 					<h5>A bunch of different things.</h5>
 					<h5>My current fun!</h5>				
 				</div>
@@ -81,7 +82,7 @@
 	 <div class="container mtb">
 	 	<div class="row">
 	 		<div class="col-lg-4 col-lg-offset-1">
-		 		<h4>Software Development</h4>
+		 		<h4 itemprop="title">Software Developer</h4>
 		 		<p>I’m a professional software developer. With experience in developing realtime web apps, data analysis and reporting,with mobile and tablet interfaces.</p>
 		 		<p>I am currently working on various open source projects.</p>
  				<p><br/><a href="/cv" class="btn btn-theme">Browse CV</a></p>
@@ -120,5 +121,6 @@
 	 			</div>
 	 		</div><!--/row -->
 	 	</div><!--/container -->
-	 </div><!--/twrap -->
+	</div><!--/twrap -->
+	</span>
 {% endblock %}
