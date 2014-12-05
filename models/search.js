@@ -1,9 +1,6 @@
 var Joi = require('joi');
 var extend = require('extend-object');
 var BaseModel = require('./base');
-var StatusEntry = require('./status-entry');
-var NoteEntry = require('./note-entry');
-
 
 var Search = BaseModel.extend({
     constructor: function (attrs) {

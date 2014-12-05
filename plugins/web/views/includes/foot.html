@@ -10,7 +10,7 @@
     {% if pages._current == 'labs' %}
     <script>
     	jQuery(function($){
-            var data = {% autoescape false %}{{ data }}{% endautoescape %};
+            var data = {% autoescape false %}{{ JSON.stringify(data) }}{% endautoescape %};
             $( "<div></div>" )
 				.appendTo( "body" )
 				.searches(data);
