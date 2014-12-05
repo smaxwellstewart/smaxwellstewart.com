@@ -138,15 +138,13 @@
 	}
 
 
+	if(window.location.pathname === '/' ||  window.location.pathname === '/blog') {
+		apiCall('/api/blog', recentPosts);
+	};
 
-
-
-
-	apiCall('/api/blog', recentPosts);
-
-	if(window.location.pathname.indexOf("/", 1) < 0) {
+	if( window.location.pathname === '/blog' ) {
 		apiCall('/api'+window.location.pathname + window.location.search, blogItems);
-	} else {
-		// apiCall('/api'+window.location.pathname, blogPost);
 	}
+
+
 })(jQuery);

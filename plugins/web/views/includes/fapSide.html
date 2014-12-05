@@ -1,0 +1,39 @@
+<h4>Explore the data</h4>
+<div class="hline"></div>
+<div class="spacing"></div>
+<form class="form-horizontal" role="form" action="/labs/fap-searches" method="GET">
+	<div class="input-group">
+		<input type="text" class="form-control" name="keyword" placeholder='keyword or "a phrase"' value="{{query.keyword}}">
+	  	<div class="input-group-btn">
+	    	<button type="submit" class="btn btn-primary">Find <i class="fa fa-search"></i></button>
+	 	</div>	
+	</div>
+	<div class="input-group">
+		<label class="radio-inline"><input type="radio" value="all" name="segment" {% if (!query.segment) ||  (query.segment === 'all') %} checked {% endif %}>All</label>
+		<label class="radio-inline"><input type="radio" value="s" name="segment" {% if query.segment === 's' %} checked {% endif %}>Straight</label>
+		<label class="radio-inline"><input type="radio" value="g" name="segment" {% if query.segment === 'g' %} checked {% endif %}>Gay</label>  
+		<label class="radio-inline"><input type="radio" value="t" name="segment" {% if query.segment === 't' %} checked {% endif %}>Trans</label>
+	</div>
+</form>
+
+<div class="spacing"></div>
+
+<h4>What is this?</h4>
+<div class="hline"></div>
+
+<p>This is a random collection of text searches performed across the <a href="http://www.pornmd.com">PORNMD</a> network in the last 15 mins.</p>
+<!-- <p><a class="btn btn-sm btn-primary" href="#">More Info</a></p> -->
+
+<div class="spacing"></div>
+
+<h4>Disclaimer</h4>
+<div class="hline"></div>
+<p>I am not responsible for any of the data found here. Sometimes the data can be misogynistic, racist and upsetting in different ways. This tool is not meant to glorify offensive material but instead better understand it.</p>
+
+<div class="spacing"></div>
+
+<h4>Credits</h4>
+<div class="hline"></div>
+<h6><a href="https://georgemdallas.wordpress.com/">George Dallas</a> - Data Consultant</h6>
+<h6><a href="http://www.pornmd.com">PORNMD</a> - Live Data</h6>
+

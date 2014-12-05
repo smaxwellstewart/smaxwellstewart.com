@@ -46,7 +46,13 @@ var manifest = {
         './plugins/web/index': {},
         './plugins/web/login': {},
         './plugins/web/blog': {},
-        './plugins/web/cv': {}
+        './plugins/web/cv': {},
+        './plugins/pornmd/web': {},
+        './plugins/pornmd/scrub': {},
+        './plugins/pornmd/save': {},
+        './plugins/pornmd/scrape': {},
+        './plugins/pornmd/api': { basePath: '/api' },
+
     }
 };
 
