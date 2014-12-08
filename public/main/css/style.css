@@ -446,11 +446,6 @@ csmall2 {
 	margin-bottom: 20px; 
 	min-height: 70px;
 }
-.popular-posts li a, 
-.popular-posts li a:hover {
-	color:#2f2f2f; 
-	text-decoration: none;
-	}
 	
 .popular-posts li img {
 	float: left; 

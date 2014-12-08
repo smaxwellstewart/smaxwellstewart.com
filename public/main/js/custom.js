@@ -121,7 +121,7 @@
 				var item = '<div class="portfolio-item graphic-design"><div class="he-wrap tpl6"><img src="'+value.img+'" alt=""><div class="he-view"><div class="bg a0" data-animate="fadeIn"><h3 class="a1" data-animate="fadeInDown">'+value.title+'</h3><a href="/blog/'+value.slug+'" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a></div><!-- he bg --></div><!-- he view --></div><!-- he wrap --></div><!-- end col-12 -->';
 	 			$('.portfolio').append(item);
 			} else {
-				var item = '<li><a href="/blog/'+value.slug+'"><div class="pull-left thumb-div" style="background-image:url(\''+value.img+'\')">&nbsp;</div></a><p><a href="/blog/'+value.slug+'">'+value.title+'</a></p><em>Posted on '+value.timeCreated+'</em></li>';
+				var item = '<li><a href="/blog/'+value.slug+'"><div class="pull-left thumb-div" style="background-image:url(\''+value.img+'\')">&nbsp;</div></a><h6 class="ctitle"><a href="/blog/'+value.slug+'">'+value.title+'</a></h6><em>Posted on '+value.timeCreated+'</em></li>';
 	 			$('.popular-posts').append(item);
 			}
 		});
