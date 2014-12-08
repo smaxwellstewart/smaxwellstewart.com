@@ -16,7 +16,7 @@ Search._collection = 'searches';
 Search.schema = Joi.object().keys({
     _id: Joi.object(),
     text: Joi.string().required(),
-    timeCreated: Joi.date()
+    _ts: Joi.date()
 });
 
 
@@ -29,7 +29,7 @@ Search.indexes = [
 Search.create = function (doc, callback) {
 
     var document = doc;
-    doc.timeCreated = new Date();
+    doc._ts = new Date();
 
     this.insert(document, function (err, searches) {
 

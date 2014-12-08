@@ -138,7 +138,7 @@
 	}
 
 
-	if(window.location.pathname === '/' ||  window.location.pathname === '/blog') {
+	if(window.location.pathname === '/' ||  window.location.pathname === '/blog' ||  window.location.pathname.substring(0, 6) === '/blog/') {
 		apiCall('/api/blog', recentPosts);
 	};
 

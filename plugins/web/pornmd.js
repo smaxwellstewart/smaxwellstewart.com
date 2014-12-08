@@ -12,13 +12,11 @@ exports.register = function (plugin, options, next) {
 
             plugin.servers[0].inject('http://localhost.com/api/search/agg?'+queryString, function(res){
                 var data = JSON.parse(res.payload);
-
                 return reply.view('fap', {
                  title: 'Fap Searches',
                     query: request.query,
                     data: data
-                }); 
-
+                });
             });
 
             
