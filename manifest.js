@@ -41,12 +41,16 @@ var manifest = {
         './plugins/api/statuses': { basePath: '/api' },
         './plugins/api/users': { basePath: '/api' },
         './plugins/api/blogs': { basePath: '/api' },
+        './plugins/api/pornmd': { basePath: '/api' },
         './plugins/web/assets': {},
         './plugins/web/missing': {},
         './plugins/web/index': {},
         './plugins/web/login': {},
         './plugins/web/blog': {},
-        './plugins/web/cv': {}
+        './plugins/web/cv': {},
+        './plugins/web/pornmd': {}
+        
+
     }
 };
 

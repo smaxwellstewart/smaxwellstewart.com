@@ -1,0 +1,4 @@
+span.word:hover {
+	border-bottom: 1px dotted #000;
+	cursor: pointer;
+}

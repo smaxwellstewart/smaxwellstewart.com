@@ -1,15 +1,16 @@
 exports.register = function (plugin, options, next) {
 
     var models = {
+        BaseModel: require('../models/base'),
         Account: require('../models/account'),
         AdminGroup: require('../models/admin-group'),
         Admin: require('../models/admin'),
         AuthAttempt: require('../models/auth-attempt'),
-        BaseModel: require('../models/base'),
+        Blog: require('../models/blog'),
+        Search: require('../models/search'),
         Session: require('../models/session'),
         Status: require('../models/status'),
-        User: require('../models/user'),
-        Blog: require('../models/blog')
+        User: require('../models/user')
     };
 
     models.BaseModel.connect(function (err, db) {

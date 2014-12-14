@@ -16,7 +16,8 @@ var assets = {
 	        	'main/js/jquery.prettyPhoto.js',
 	        	'main/js/jquery.isotope.min.js',
 	        	'main/js/custom.js',
-                'main/js/marked.js'
+                'main/js/marked.js',
+                'main/js/number.min.js'
 	        ]
 	    }
 	},
@@ -48,6 +49,19 @@ exports.register = function (plugin, options, next) {
         // Check to see if the response is a view
         if (response.variety === 'view') {
 
+            //pagePaths._current = 
+            var pathSegments = request.route.path.split('\/');
+            pathSegments.shift();
+           
+            if(pathSegments[0] == "") {
+                pagePaths._current = 'index';
+            }
+            else {
+                pagePaths._current = pathSegments[0];
+            }
+
+            response.source.context.pages = pagePaths;
+
             if(_.isEmpty(response.source.context)){
                 response.source.context = {};
             }
@@ -55,21 +69,14 @@ exports.register = function (plugin, options, next) {
             if(_.isEmpty(response.source.context.assets)){
                 response.source.context.assets = {};
             }
+            if (pathSegments[0] == "labs"){
+                assets[environment].main.js.push('main/js/fap.js')
+                assets[environment].main.css.push('main/css/fap.css')
+            }
             response.source.context.assets = assets[environment];
 
-            //pagePaths._current = 
-            var pathSegments = request.route.path.split('\/');
-            pathSegments.shift();
-            if(pathSegments[0] == "") {
-                pagePaths._current = 'index';
-            }
-            if(pathSegments[0] == "login") {
-                pagePaths._current = 'login';
-            }
-            else if(pathSegments[0] == "blog") {
-                pagePaths._current = 'blog';
-            }
-            response.source.context.pages = pagePaths;
+            
+            
         }
         return next();
     });

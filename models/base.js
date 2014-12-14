@@ -320,12 +320,12 @@ BaseModel.update = function () {
     collection.update.apply(collection, args);
 };
 
-BaseModel.aggregation = function () {
+BaseModel.aggregate = function (aggs, callback) {
 
     var collection = BaseModel.db.collection(this._collection);
-    var args = Array.prototype.slice.call(arguments);
+    // var query = { _id: this._idClass(id) };
 
-    collection.remove.apply(collection, args);
+    collection.aggregate(aggs, callback);
 };
 
 

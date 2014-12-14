@@ -13,6 +13,12 @@
       <ul class="nav navbar-nav">
         <li class="{% if (pages._current === 'index') %} active {% endif %}" ><a href="/" >HOME</a></li>
         <li class="{% if (pages._current === 'blog') %} active {% endif %}" ><a href="/blog">BLOG</a></li>
+        <li class="{% if (pages._current === 'labs') %} active {% endif %} dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">LABS</a>
+          <ul class="dropdown-menu">
+            <li><a href="/labs/fap-searches">FAP SEARCHES</a></li>
+          </ul>
+        </li>
         <li><a href="http://github.com/smaxwellstewart/frame">SOURCE CODE</a></li>
       </ul>
     </div><!--/.nav-collapse -->
