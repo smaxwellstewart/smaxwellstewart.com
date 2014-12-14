@@ -8,13 +8,11 @@ I hope to demonstrate that by properly utilising a Github repository to host the
 
 Github is the site your are on now.
 
-If click 'Source Code' in the top menu you will be taken to the project's repository.
-
-If are signed up as a Github user, from the repo you can:
+If you sign up as a Github user you can:
 
 - Reveiw the forum / discuss issues.
-- Submit an issue as a way to start a thread of dialogue, or discuss how the site is run. Errors, disagrement with articles, grammatical injustices, whatever it is open an issue...
-- Users can submit pull requests to suggest a change any of the site. Community decides is they want the changes.
+- Submit an issue as a way to start a thread of dialogue, or discuss how the site is run. Errors, disagrement with articles, grammatical injustices or whatever, please open an [issue](https://github.com/smaxwellstewart/smaxwellstewart.com/issues).
+- Users can submit pull requests to suggest a change any of the functionality of the site.
 
 ### Why the hell would i wanna sign up for a Gitub account?
 
@@ -22,10 +20,6 @@ If are signed up as a Github user, from the repo you can:
 
 - Free to sign up
 - Gives you free use of it's services for open source projects.
-
-### Rules?
-
-To be dicussed
 
 ### Places of interest
 
@@ -41,7 +35,7 @@ See / edit the markdown for blog articles:
 
 [https://github.com/smaxwellstewart/frame/tree/master/plugins/web/articles](https://github.com/smaxwellstewart/frame/tree/master/plugins/web/articles)
 
-## Under the hood
+## Under the hood: [jedireza/frame](https://github.com/jedireza/frame)
 
 A user system API for Node.js. Bring your own front-end.
 

@@ -9,7 +9,7 @@
 	<div id="blue">
 	    <div class="container">
 			<div class="row">
-				<h3>Single Post.</h3>
+				<h3><i class="fa fa-book"></i> Blog.</h3>
 			</div><!-- /row -->
 	    </div> <!-- /container -->
 	</div><!-- /blue -->
@@ -29,7 +29,7 @@
 			 		<h1 class="ctitle"><span class="article-title">{{title}}</span> </h1>
 
 			 		<p><csmall>Posted: <time itemprop="date" datetime="{{date}}">{{date}}</time></csmall> | <csmall2>By: <span class="article-author" itemprop="author">{{author}}</span></csmall2> | <csmall>Into: <a href="/blog?category={{category}}"itemprop="articleSection">{{category}}</a></csmall></p>
-			 		<h6><a href="https://github.com/smaxwellstewart/frame/blob/master/plugins/web/articles/{{slug}}.md"><i class="fa fa-edit"></i> Edit</a> | <a href="https://github.com/smaxwellstewart/frame/issues"><i class="fa fa-comments"></i> Comments</a></h6>
+			 		<h6><a href="https://github.com/smaxwellstewart/smaxwellstewart.com/blob/master/plugins/web/articles/{{slug}}.md"><i class="fa fa-edit"></i> Edit</a> | <a href="https://github.com/smaxwellstewart/smaxwellstewart.com/issues"><i class="fa fa-comments"></i> Comments</a></h6>
 		 		</header>
 		 		<span itemprop="articleBody">
 		 			{% autoescape false %}{{ html }}{% endautoescape %}
