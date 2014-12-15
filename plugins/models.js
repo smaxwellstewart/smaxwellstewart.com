@@ -7,7 +7,6 @@ exports.register = function (plugin, options, next) {
         Admin: require('../models/admin'),
         AuthAttempt: require('../models/auth-attempt'),
         Blog: require('../models/blog'),
-        Search: require('../models/search'),
         Session: require('../models/session'),
         Status: require('../models/status'),
         User: require('../models/user')

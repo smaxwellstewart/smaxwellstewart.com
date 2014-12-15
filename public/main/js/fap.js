@@ -50,7 +50,8 @@
             chart: {
                 plotBackgroundColor: null,
                 plotBorderWidth: 0,//null,
-                plotShadow: false
+                plotShadow: false,
+                marginTop: 40
             },
             title: {
                 text: 'Segment Breakdown',
