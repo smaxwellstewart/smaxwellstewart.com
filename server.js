@@ -1,14 +1,14 @@
-var composer = require('./index');
+var Composer = require('./index');
 
 
-composer(function (err, pack) {
+Composer(function (err, server) {
 
     if (err) {
         throw err;
     }
 
-    pack.start(function () {
+    server.start(function () {
 
-        console.log('Started the plot device.');
+        console.log('Started server.');
     });
 });
