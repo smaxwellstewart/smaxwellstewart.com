@@ -2,12 +2,30 @@ exports.register = function (server, options, next) {
 
     server.route({
         method: 'GET',
-        path: '/',
-        handler: function (request, reply) {
-            return reply.view('index', {
-            	title: 'Software Developer'
-            }); 
+        path: '/{p*}',
+        handler: {
+            directory: {
+                path: './public/',
+                listing: true,
+                index: true,
+                defaultExtension: 'html'
+            }
         }
+    });
+
+    server.ext('onPreResponse', function (request, reply) {
+        var response = request.response;
+
+
+        // Custom error pages
+        if (response.isBoom) {
+
+            if (response.output.statusCode === 404) {
+                return reply.view('404').code(404);
+            }
+        }
+
+        return reply(response);
     });
 
     next();

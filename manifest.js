@@ -61,13 +61,13 @@ var manifest = {
         './server/api/statuses': { basePath: '/api' },
         './server/api/users': { basePath: '/api' },
         './server/api/blogs': { basePath: '/api' },
-        './server/assets/index': {},
-        './server/web/missing': {},
+        // './server/assets/index': {},
+        // './server/web/missing': {},
         './server/web/index': {},
-        './server/web/login': {},
-        './server/web/blog': {},
-        './server/web/cv': {},
-        './server/web/pornmd': {}
+        // './server/web/login': {},
+        // './server/web/blog': {},
+        // './server/web/cv': {},
+        // './server/web/pornmd': {}
     }
 };
 

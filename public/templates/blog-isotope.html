@@ -1,0 +1,19 @@
+<div id="portfoliowrap" ng-controller="BlogCtrl as blog">
+    <h3>RECENT POSTS</h3>
+    <div class="portfolio-centered">
+        <div class="recentitems portfolio">
+            <div class="portfolio-item graphic-design" ng-repeat="article in blog.articles">
+                <div class="he-wrap tpl6">
+                    <img ng-src="{{ article.img }}" alt="">
+                    <div class="he-view">
+                        <div class="bg a0" data-animate="fadeIn">
+                            <h3 class="a1" data-animate="fadeInDown">{{ article.title }}</h3>
+                            <a data-rel="prettyPhoto" href="{{ article.img }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                            <a href="{{ article.slug }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                        </div><!-- he bg -->
+                    </div><!-- he view -->
+                </div><!-- he wrap -->
+            </div><!-- end col-12 -->
+        </div><!-- portfolio -->
+    </div><!-- portfolio container -->
+</div><!--/Portfoliowrap -->
