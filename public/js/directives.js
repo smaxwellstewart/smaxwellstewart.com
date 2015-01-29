@@ -31,6 +31,13 @@ function blogCategories() {
     }
 }
 
+function blogRecent() {
+    return {
+        restrict: 'E',
+        templateUrl: 'views/blog-recent.html'
+    }
+}
+
 
 /**
  * pageTitle - Directive for set Page title - mata title
@@ -63,3 +70,4 @@ angular
     .directive('blogListing', blogListing)
     .directive('blogIsotope', blogIsotope)
     .directive('blogCategories', blogCategories)
+    .directive('blogRecent', blogRecent)
