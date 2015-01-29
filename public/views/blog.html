@@ -1,0 +1,43 @@
+<!-- *****************************************************************************************************************
+BLUE WRAP
+***************************************************************************************************************** -->
+<div id="blue">
+    <div class="container">
+        <div class="row">
+            <h3><i class="fa fa-book"></i> Blog.</h3>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /blue -->
+<!-- *****************************************************************************************************************
+BLOG CONTENT
+***************************************************************************************************************** -->
+
+<div class="container mtb" ng-controller="BlogCtrl as blog">
+    <div class="row">
+        <blog-listing></blog-listing>
+
+            <!-- SIDEBAR -->
+            <div class="col-lg-4">
+                <h4>Search</h4>
+                <div class="hline"></div>
+                <p>
+                <br/>
+                <input type="text" class="form-control" placeholder="Search..." ng-model="searchQuery">
+            </p>
+
+            <div class="spacing"></div>
+
+            <h4>Categories</h4>
+            <div class="hline"></div>
+            <blog-categories></blog-categories>
+
+            <div class="spacing"></div>
+
+            <h4>Recent Posts</h4>
+            <div class="hline"></div>
+            <ul class="popular-posts">
+
+            </ul>
+        </div>
+    </div><!--/row -->
+</div><!--/container -->

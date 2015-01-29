@@ -1,0 +1,11 @@
+<!-- BLOG POSTS LIST -->
+<div id="blogItems" class="col-lg-8">
+    <div ng-repeat="article in blog.articles | filter:filters | filter:searchQuery">
+        <p><img class="img-responsive" ng-src="{{ article.img }}"></p>
+        <a href="/blog/{{ article.slug }}"><h3 class="ctitle">{{ article.title }}</h3></a>
+        <p><csmall>Posted: {{ article.timeCreated | date }}</csmall> | <csmall2>By: {{ article.author }}</csmall2></p>
+        <div ng-bind-html="article.article | snippet "></div>
+        <a class="btn btn-primary" href="/blog/{{ article.slug }}">Read More</a>
+        <div class="hline" style="margin: 30px 0px" ng-show="!$last"></div>
+    </div>
+</div><!--/col-lg-8 -->
