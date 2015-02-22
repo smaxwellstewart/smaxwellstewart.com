@@ -15,8 +15,8 @@
                 <li ui-sref-active="active">
                     <a ui-sref="home">HOME</a>
                 </li>
-                <li ui-sref-active="active">
-                    <a ui-sref="blog">BLOG</a>
+                <li ng-class="{active: $state.includes('blog')}">
+                    <a ui-sref="blog.root">BLOG</a>
                 </li>
 
                 <li><a href="http://github.com/smaxwellstewart/frame">SOURCE CODE</a></li>

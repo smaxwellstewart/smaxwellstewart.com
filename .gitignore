@@ -2,3 +2,4 @@ node_modules/*
 test/artifacts/*
 public/robots.txt
 /config.js
+npm-debug.log

@@ -4,7 +4,7 @@ exports.register = function (plugin, options, next) {
         method: 'GET',
         path: '/cv',
         handler: function (request, reply) {
-            return reply.view('cv'); 
+            return reply.view('cv');
         }
     });
 

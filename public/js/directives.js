@@ -65,7 +65,9 @@ function pageTitle($rootScope, $timeout) {
  * Pass all functions into module
  */
 angular
-    .module('mySite')
+    .module('mySite.directives', [
+        'ui.bootstrap'
+    ])
     .directive('pageTitle', pageTitle)
     .directive('blogListing', blogListing)
     .directive('blogIsotope', blogIsotope)

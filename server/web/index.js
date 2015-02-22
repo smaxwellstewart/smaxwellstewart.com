@@ -4,12 +4,7 @@ exports.register = function (server, options, next) {
         method: 'GET',
         path: '/{p*}',
         handler: {
-            directory: {
-                path: './public/',
-                listing: true,
-                index: true,
-                defaultExtension: 'html'
-            }
+            file: './public/index.html'
         }
     });
 

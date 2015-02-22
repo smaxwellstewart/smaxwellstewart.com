@@ -61,7 +61,7 @@ var manifest = {
         './server/api/statuses': { basePath: '/api' },
         './server/api/users': { basePath: '/api' },
         './server/api/blogs': { basePath: '/api' },
-        // './server/assets/index': {},
+        './server/assets/index': {},
         // './server/web/missing': {},
         './server/web/index': {},
         // './server/web/login': {},

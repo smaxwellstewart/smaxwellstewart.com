@@ -1,4 +1,9 @@
 <ul class="popular-posts">
     <li ng-repeat="article in blog.articles">
-        <a href="#/blog/{{ article.slug }}"><div class="pull-left thumb-div" style="background-image:url('{{ article.img }}')">&nbsp;</div></a><p><a href="#/blog/{{ article.slug }}">{{ article.title }}</a></p><em>Posted on {{ article.timeCreated | date }}</em></li>';
+        <a ui-sref="blog.post({ articleId: article.slug })">
+            <div class="pull-left thumb-div" style="background-image:url('{{ article.img }}')">&nbsp;</div>
+        </a>
+        <h6><a ui-sref="blog.post({ articleId: article.slug })">{{ article.title }}</a></h6>
+        <em>Posted on {{ article.timeCreated | date }}</em>
+    </li>
 </ul>

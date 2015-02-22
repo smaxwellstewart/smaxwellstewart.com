@@ -41,7 +41,9 @@ function ucFirst() {
         return input;
     }
 }
-angular.module('mySite')
+angular
+    .module('mySite.filters', [
+    ])
     .filter('snippet', makeBlogSnippet)
     .filter('markdown', makeMarkdown)
     .filter('ucfirst', ucFirst)

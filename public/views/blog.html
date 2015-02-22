@@ -14,7 +14,8 @@ BLOG CONTENT
 
 <div class="container mtb" ng-controller="BlogCtrl as blog">
     <div class="row">
-        <blog-listing></blog-listing>
+        <!-- <blog-listing></blog-listing> -->
+        <div ui-view></div>
 
             <!-- SIDEBAR -->
             <div class="col-lg-4">
@@ -36,7 +37,7 @@ BLOG CONTENT
             <h4>Recent Posts</h4>
             <div class="hline"></div>
             <blog-recent></blog-recent>
-            
+
         </div>
     </div><!--/row -->
 </div><!--/container -->

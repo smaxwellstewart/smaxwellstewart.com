@@ -40,6 +40,8 @@
   },
   "devDependencies": {
     "code": "^1.2.0",
+    "karma": "^0.12.31",
+    "karma-firefox-launcher": "^0.1.4",
     "lab": "^5.0.1",
     "nodemon": "^1.2.1",
     "promptly": "^0.2.0",

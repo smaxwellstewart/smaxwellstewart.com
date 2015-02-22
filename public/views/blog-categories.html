@@ -1,8 +1,8 @@
 <h3 style="display: inline-block; float: left; margin-right: 20px" ng-repeat="category in blog.categories">
-    <a class="label label-primary" ng-click="filters.category = category"><i class="fa fa-angle-right"></i> {{ category | ucfirst }}</a>
+    <a style="font-size: 12px;" class="label label-success" ng-click="filters.category = category" ui-sref="blog.posts({ category: category })">{{ category | ucfirst }}</a>
 </h3>
 <h3 style="display: inline-block; float: left; margin-right: 20px">
-    <a class="label label-primary" ng-click="clearFilter()"><i class="fa fa-angle-right"></i> All</a>
+    <a style="font-size: 12px;" class="label label-success" ng-click="clearFilter()" ui-sref="blog.root">All</a>
 </h3>
 
 <div class="clearfix"></div>
