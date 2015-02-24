@@ -39,6 +39,8 @@ function blogRecent() {
 }
 
 
+
+
 /**
  * pageTitle - Directive for set Page title - mata title
  */
@@ -59,6 +61,16 @@ function pageTitle($rootScope, $timeout) {
     }
 };
 
+function scrollTo($timeout) {
+    function link (scope, element, attrs) {
+        scope.$on(attrs.scrollToTopWhen, function () {
+            $timeout(function () {
+                angular.element(element)[0].scrollTop = 0;
+            });
+        });
+    }
+}
+
 
 /**
  *
@@ -73,3 +85,4 @@ angular
     .directive('blogIsotope', blogIsotope)
     .directive('blogCategories', blogCategories)
     .directive('blogRecent', blogRecent)
+    .directive("scrollToTopWhen", scrollTo);

@@ -9,7 +9,7 @@
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">{{ article.title }}</h3>
                             <a data-rel="prettyPhoto" href="{{ article.img }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                            <a href="{{ article.slug }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                            <a ui-sref="blog.post({ articleId: article.slug })" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                         </div><!-- he bg -->
                     </div><!-- he view -->
                 </div><!-- he wrap -->

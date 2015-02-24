@@ -12,8 +12,8 @@ BLUE WRAP
 BLOG CONTENT
 ***************************************************************************************************************** -->
 
-<div class="container mtb" ng-controller="BlogCtrl as blog">
-    <div class="row">
+<div class="container mtb" ng-controller="BlogCtrl as blog" id="top">
+    <div class="row" $scope.$broadcast("items_changed")>
         <!-- <blog-listing></blog-listing> -->
         <div ui-view></div>
 

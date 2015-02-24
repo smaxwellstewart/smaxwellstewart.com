@@ -5,8 +5,8 @@
         <p><img class="img-responsive article-img" ng-src="{{ blog.article.img }}"></p>
         <h1 class="ctitle"><span class="article-title">{{ blog.article.title }}</span> </h1>
 
-        <p><csmall>Posted: {{ blog.article.timeCreated | date }}</csmall> | <csmall2>By: <span class="article-author">{{ blog.article.author }}</span></csmall2> | <csmall>Into: <a href="/blog?category={{ article.category }}" itemprop="articleSection">{{ blog.article.category }}</a></csmall></p>
-        <h6><a href="https://github.com/smaxwellstewart/smaxwellstewart.com/blob/master/plugins/web/articles/{{ article.slug }}.md"><i class="fa fa-edit"></i> Edit</a> | <a href="https://github.com/smaxwellstewart/smaxwellstewart.com/issues"><i class="fa fa-comments"></i> Comments</a></h6>
+        <p><csmall>Posted: {{ blog.article.timeCreated | date }}</csmall> | <csmall2>By: <span class="article-author">{{ blog.article.author }}</span></csmall2> | <csmall>Into: <a ui-sref="blog.posts({ category: blog.article.category })" itemprop="articleSection">{{ blog.article.category }}</a></csmall></p>
+        <h6><a href="https://github.com/smaxwellstewart/smaxwellstewart.com/blob/master/server/web/articles/{{ blog.article.slug }}.md"><i class="fa fa-edit"></i> Edit</a> | <a href="https://github.com/smaxwellstewart/smaxwellstewart.com/issues"><i class="fa fa-comments"></i> Comments</a></h6>
     </header>
     <div ng-bind-html="blog.article.article | markdown "></div>
 

@@ -16,7 +16,7 @@ function MainCtrl() {
 
 };
 
-function BlogCtrl($scope, $http, $timeout, gallery, blogService) {
+function BlogCtrl($scope, $http, $timeout, $location, $anchorScroll, gallery, blogService) {
     var blog = this;
 
 
@@ -24,6 +24,13 @@ function BlogCtrl($scope, $http, $timeout, gallery, blogService) {
     $scope.clearFilter = function() {
         $scope.filters = {};
     };
+
+    $scope.toTop = function() {
+        console.log('Go over the top.')
+        $anchorScroll('#top');
+    };
+
+    $scope.toTop();
 
     blog.categories = [
         'comedy',
@@ -50,6 +57,7 @@ function BlogCtrl($scope, $http, $timeout, gallery, blogService) {
         blogService.getPost(id)
         .success(function (post) {
             blog.article = post;
+            $scope.$broadcast("view_changed");
         })
         .error(function (error) {
             $scope.status = 'Unable to load article data: ' + error.message;
@@ -65,4 +73,4 @@ angular
         'ui.bootstrap'
     ])
     .controller('MainCtrl', MainCtrl)
-    .controller('BlogCtrl', ['$scope', '$http', '$timeout', 'gallery', 'blogService', BlogCtrl])
+    .controller('BlogCtrl', ['$scope', '$http', '$timeout', '$location', '$anchorScroll', 'gallery', 'blogService', BlogCtrl])
