@@ -49,11 +49,24 @@ function pageTitle($rootScope, $timeout) {
         link: function(scope, element) {
             var listener = function(event, toState, toParams, fromState, fromParams) {
                 // Default title
-                var title = 'smaxwellstewart.com | Home';
+                var title = 'smaxwellstewart.com';
                 // Create your own title pattern
-                if (toState.data && toState.data.pageTitle) title = 'smaxwellstewart.com | ' + toState.data.pageTitle;
+                if (toState.data && toState.data.pageTitle){
+                    title = 'smaxwellstewart.com | ' + toState.data.pageTitle;
+
+                    if(toState.name == 'blog.posts' && toParams.category) {
+                        title = 'smaxwellstewart.com | ' + toState.data.pageTitle + ' in ' + toParams.category;
+                    }
+
+                }
+
+                if(toState.name == 'blog.post' && toParams.articleId) {
+                    title = 'smaxwellstewart.com | ' + toParams.articleId.replace(/-/gi, ' ');
+                }
+
                 $timeout(function() {
                     element.text(title);
+                    console.log(toState);
                 });
             };
             $rootScope.$on('$stateChangeStart', listener);

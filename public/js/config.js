@@ -17,18 +17,18 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         .state('home', {
             url: "/",
             templateUrl: "views/landing.html",
-            data: { pageTitle: 'Example view' }
+            data: { pageTitle: 'Home' }
         })
         .state('blog', {
             url: "/blog",
             templateUrl: "views/blog.html",
-            data: { pageTitle: 'Example view' }
+            data: { pageTitle: 'Blog posts' }
         })
 
         .state('blog.posts', {
             url: "/posts/:category",
             templateUrl: "views/blog-listing.html",
-            data: { pageTitle: 'Example view' },
+            data: { pageTitle: 'Blog Posts' },
             controller: function($scope, $stateParams){
                 $scope.filters.category = $stateParams.category;
             }
@@ -36,7 +36,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         .state('blog.root', {
             url: "/posts",
             templateUrl: "views/blog-listing.html",
-            data: { pageTitle: 'Example view' },
+            data: { pageTitle: 'Blog Posts' },
             controller: function($scope, $stateParams){
                 $scope.filters = {};
             }
@@ -44,7 +44,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         .state('blog.post', {
             url: "/post/{articleId}",
             templateUrl: "views/blog-single.html",
-            data: { pageTitle: 'Example view' },
+            data: { pageTitle: '' },
             controller: function($scope, $stateParams, blogService) {
                 $scope.$parent.blog.getPost($stateParams.articleId)
                 // console.log(heres);
